@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Block access to admin areas and API routes
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /private/
+
+# Allow important pages
+Allow: /
+Allow: /terms-of-service
+Allow: /privacy-policy
+
+# Sitemap location
+Sitemap: https://clickvente.com/sitemap.xml
+
+# Crawl delay (optional - adjust based on server capacity)
+Crawl-delay: 1 
