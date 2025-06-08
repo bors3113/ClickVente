@@ -639,7 +639,9 @@ export default function Home() {
                   <p className="text-xs sm:text-sm">
                     <span className="font-semibold text-secondary-300">Registration:</span> 16156224
                   </p>
-                  
+                  <p className="text-xs sm:text-sm">
+                    <span className="font-semibold text-secondary-300">Email:</span> contact@clickvente.com
+                  </p>
                 </div>
               </div>
             </div>
