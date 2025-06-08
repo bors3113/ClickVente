@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "title": "Transformez votre entreprise avec",
+    "titleHighlight": "Solutions Web & Automatisation IA",
+    "description": "Nous créons des sites web puissants et des systèmes d'automatisation intelligents qui fonctionnent ensemble. Des expériences web époustouflantes aux workflows IA intelligents qui éliminent les tâches manuelles et accélèrent la croissance.",
+    "cta": "Réservez une consultation gratuite"
+  },
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "Qui nous sommes",
+    "description": "Nous sommes une agence spécialisée en développement web et automatisation IA qui crée des solutions numériques intégrées pour les entreprises modernes.",
+    "mission": "Notre mission",
+    "missionText1": "Nous combinons un développement web exceptionnel avec une automatisation intelligente pour créer des expériences numériques fluides. Notre mission est de créer des sites web qui non seulement sont magnifiques mais fonctionnent automatiquement en arrière-plan.",
+    "missionText2": "Des applications web personnalisées aux workflows alimentés par l'IA, nous aidons les entreprises à fonctionner plus efficacement tout en offrant des expériences utilisateur exceptionnelles qui génèrent de vrais résultats.",
+    "whyTitle": "Pourquoi Web + Automatisation IA ?",
+    "benefits": {
+      "websites": "Beaux sites web qui convertissent les visiteurs",
+      "automation": "Automatisation intelligente qui économise 20+ heures/semaine",
+      "integration": "Systèmes intégrés qui fonctionnent ensemble",
+      "ai": "Interactions client alimentées par l'IA 24h/24 7j/7"
+    }
+  },
+  "services": {
+    "title": "Services de développement web & automatisation IA",
+    "description": "Solutions numériques complètes combinant expériences web époustouflantes et systèmes d'automatisation intelligents",
+    "webDev": {
+      "title": "Développement web personnalisé",
+      "description": "Applications web et sites web full-stack construits avec des technologies modernes. Des plateformes e-commerce aux applications web complexes, nous créons des expériences numériques qui engagent et convertissent.",
+      "features": [
+        "Développement React, Next.js & Node.js",
+        "E-commerce & applications web",
+        "Conception de base de données & développement API"
+      ]
+    },
+    "aiWorkflow": {
+      "title": "Automatisation de workflow IA",
+      "description": "Systèmes d'automatisation intelligents qui gèrent les tâches répétitives, traitent les données et prennent des décisions. De l'automatisation d'emails à la logique métier complexe, nous construisons une IA qui travaille pour vous.",
+      "features": [
+        "Automatisation et optimisation de processus",
+        "Prise de décision alimentée par l'IA",
+        "Scripts d'automatisation personnalisés"
+      ]
+    },
+    "responsive": {
+      "title": "Design web réactif",
+      "description": "Designs mobile-first qui sont parfaits sur tous les appareils. Nous créons des interfaces utilisateur à la fois belles et fonctionnelles, optimisées pour les performances et conversions.",
+      "features": [
+        "Design réactif mobile-first",
+        "Optimisation UI/UX",
+        "Optimisation performance & SEO"
+      ]
+    },
+    "chatbot": {
+      "title": "Développement de chatbot IA",
+      "description": "IA conversationnelle intelligente qui gère les demandes clients, qualifie les prospects et fournit un support 24h/24 7j/7. Traitement du langage naturel qui comprend le contexte.",
+      "features": [
+        "Traitement du langage naturel",
+        "Qualification et routage de prospects",
+        "Intégration multi-plateforme"
+      ]
+    },
+    "ecommerce": {
+      "title": "Solutions e-commerce",
+      "description": "Boutiques en ligne complètes avec traitement des paiements, gestion d'inventaire et analyses clients. Construites pour la scalabilité et optimisées pour les conversions.",
+      "features": [
+        "E-commerce Shopify & personnalisé",
+        "Systèmes de paiement & inventaire",
+        "Analyses & optimisation de conversion"
+      ]
+    },
+    "dataProcessing": {
+      "title": "Traitement de données IA",
+      "description": "Analyse de données intelligente, reconnaissance de patterns et systèmes de rapports automatisés. Transformez les données brutes en insights actionnables avec des analyses alimentées par l'IA.",
+      "features": [
+        "Analyse de données & reconnaissance de patterns",
+        "Systèmes de rapports automatisés",
+        "Intégrations API & synchronisation de données"
+      ]
+    }
+  },
+  "whyChoose": {
+    "title": "Pourquoi choisir ClickVente ?",
+    "description": "La combinaison parfaite de maîtrise du développement web et d'expertise en automatisation IA",
+    "webExperts": {
+      "title": "Experts en développement web",
+      "description": "Solutions web modernes et évolutives construites avec des technologies de pointe et les meilleures pratiques."
+    },
+    "aiSpecialists": {
+      "title": "Spécialistes en automatisation IA",
+      "description": "Systèmes intelligents qui éliminent le travail manuel et accélèrent la croissance commerciale."
+    },
+    "rapidImplementation": {
+      "title": "Implémentation rapide",
+      "description": "Déploiement rapide des sites web et systèmes d'automatisation avec temps d'arrêt minimal."
+    },
+    "integratedSolutions": {
+      "title": "Solutions intégrées",
+      "description": "Connexion transparente entre votre présence web et vos workflows d'automatisation."
+    },
+    "ctaTitle": "Prêt à transformer votre entreprise ?",
+    "ctaDescription": "Rejoignez des centaines d'entreprises qui économisent déjà du temps et augmentent leurs revenus avec nos solutions d'automatisation.",
+    "ctaButton": "Automatisons votre workflow"
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "description": "Obtenez des réponses aux questions courantes sur nos services de développement web et d'automatisation IA",
+    "items": [
+      {
+        "question": "Combien de temps prend un projet typique ?",
+        "answer": "Les projets de développement web prennent généralement 2-6 semaines, tandis que les implémentations d'automatisation IA prennent 1-4 semaines. Les solutions intégrées complexes peuvent prendre 6-12 semaines. Nous fournissons des délais détaillés lors de notre consultation."
+      },
+      {
+        "question": "Qu'est-ce qui est inclus dans la maintenance continue ?",
+        "answer": "Notre maintenance inclut les mises à jour de sécurité, surveillance des performances, corrections de bugs, mises à jour de contenu et support technique 24h/24 7j/7. Nous fournissons également des rapports mensuels et recommandations d'optimisation."
+      },
+      {
+        "question": "Travaillez-vous avec des clients internationaux ?",
+        "answer": "Oui ! Nous travaillons avec des clients du monde entier. Notre équipe opère dans plusieurs fuseaux horaires pour assurer une communication efficace et une livraison de projet quelle que soit votre localisation."
+      },
+      {
+        "question": "Que se passe-t-il si je ne suis pas satisfait des résultats ?",
+        "answer": "Nous offrons des révisions illimitées pendant la phase de développement et une garantie de satisfaction de 30 jours. Si vous n'êtes pas complètement satisfait, nous travaillerons jusqu'à ce que vous le soyez ou fournirons un remboursement complet."
+      },
+      {
+        "question": "Pouvez-vous intégrer avec nos systèmes existants ?",
+        "answer": "Absolument ! Nous nous spécialisons dans les intégrations transparentes avec CRM, ERP, systèmes de paiement et autres outils métier. Nous évaluerons votre configuration actuelle et créerons des solutions personnalisées qui fonctionnent avec votre infrastructure existante."
+      },
+      {
+        "question": "Fournissez-vous une formation pour notre équipe ?",
+        "answer": "Oui ! Nous fournissons des sessions de formation complètes, documentation et tutoriels vidéo pour assurer que votre équipe peut efficacement utiliser et maintenir les systèmes que nous construisons pour vous."
+      }
+    ]
+  },
+  "calendar": {
+    "title": "Réservez votre consultation gratuite",
+    "description": "Prêt à éliminer les tâches manuelles et faire évoluer votre entreprise avec une automatisation intelligente ? Sélectionnez un créneau qui vous convient et discutons de votre projet.",
+    "selectTime": "Sélectionnez votre créneau préféré",
+    "privacyNote": "Aucun spam. Nous respectons votre vie privée et vous contacterons uniquement concernant votre projet.",
+    "email": "Envoyez-nous un email"
+  },
+  "nextSteps": {
+    "title": "Quelles sont les prochaines étapes ?",
+    "description": "Votre parcours vers le succès de l'automatisation en 3 étapes simples",
+    "step1": {
+      "title": "Consultation gratuite",
+      "description": "Appel de découverte de 30 minutes pour comprendre vos besoins d'entreprise et opportunités d'automatisation"
+    },
+    "step2": {
+      "title": "Stratégie personnalisée",
+      "description": "Stratégie d'automatisation sur mesure et proposition de développement web conçue pour vos objectifs spécifiques"
+    },
+    "step3": {
+      "title": "Lancement et croissance",
+      "description": "Implémentation, test et lancement de vos systèmes automatisés avec support continu"
+    },
+    "ctaText": "Prêt à commencer ? Réservez votre consultation gratuite ci-dessus et transformons votre entreprise ensemble.",
+    "highlights": {
+      "noCommitment": "Aucun engagement requis",
+      "confidential": "100% confidentiel"
+    }
+  },
+  "footer": {
+    "company": "ClickVente LTD",
+    "description": "Transformer les entreprises avec des solutions de développement web et d'automatisation IA de pointe. Votre succès est notre mission.",
+    "aboutTitle": "À propos de nous",
+    "aboutDescription": "ClickVente LTD se spécialise dans les solutions de développement web et d'automatisation IA qui transforment les entreprises.",
+    "linksTitle": "Liens",
+    "links": {
+      "about": "À propos de nous",
+      "services": "Services",
+      "consultation": "Consultation gratuite",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    },
+    "contact": {
+      "company": "Entreprise",
+      "registration": "Immatriculation",
+      "email": "Email"
+    },
+    "copyright": "2025 ClickVente LTD. Tous droits réservés."
+  }
+} 
