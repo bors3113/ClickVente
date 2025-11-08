@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   // Note: i18n config is not compatible with App Router
   // Internationalization is handled via custom useTranslation hook
-  // Explicitly disable i18n routing to prevent locale-specific error page generation
+  // DO NOT add i18n config here - it causes build errors with App Router
+  // The error pages are in app/error.tsx and app/not-found.tsx (App Router format)
   trailingSlash: true,
   compress: true,
   images: {
