@@ -2,7 +2,10 @@
 
 import { useEffect } from 'react'
 import Link from 'next/link'
-import { AlertCircle, Home } from 'lucide-react'
+import * as LucideIcons from 'lucide-react'
+
+const AlertCircle = LucideIcons.AlertCircle
+const Home = LucideIcons.Home
 
 export default function Error({
   error,
