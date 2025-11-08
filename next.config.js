@@ -4,6 +4,7 @@ const nextConfig = {
   swcMinify: true,
   // Note: i18n config is not compatible with App Router
   // Internationalization is handled via custom useTranslation hook
+  // Explicitly disable i18n routing to prevent locale-specific error page generation
   trailingSlash: true,
   compress: true,
   images: {
