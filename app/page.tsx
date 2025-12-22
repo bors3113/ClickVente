@@ -420,7 +420,7 @@ export default function Home() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
-                {t('whyChoose.title')} <span className="text-secondary-900">Click</span><span className="text-primary-500">Vente</span>?
+                {t('whyChoose.title')}
               </h2>
               <p className="text-lg sm:text-xl text-secondary-600 max-w-3xl mx-auto leading-relaxed px-4">
                 {t('whyChoose.description')}
