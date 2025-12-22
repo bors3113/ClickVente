@@ -19,6 +19,7 @@ import {
 import Link from 'next/link'
 import { useTranslation } from '../lib/useTranslation'
 import { LanguageSelector } from '../components/LanguageSelector'
+import ContactForm from '../components/ContactForm'
 
 export default function Home() {
   const { t, locale, changeLanguage, loading } = useTranslation()
@@ -147,7 +148,7 @@ export default function Home() {
               </p>
               <div className="flex justify-center px-4">
                 <button 
-                  onClick={() => document.getElementById('calendar')?.scrollIntoView({ behavior: 'smooth' })}
+                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                   className="bg-primary-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg text-base sm:text-lg font-semibold hover:bg-primary-600 transition-all transform hover:scale-105 shadow-xl"
                   aria-label="Schedule a consultation call"
                 >
@@ -565,7 +566,7 @@ export default function Home() {
         </section>
 
         {/* Calendar Booking Section */}
-        <section id="calendar" className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden">
+        <section id="contact" className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden">
           {/* 3D Floating Shapes */}
           <div className="absolute inset-0" aria-hidden="true">
             <div className="floating-shape shape-pyramid" style={{ top: '10%', left: '4%', animationDelay: '3s', opacity: '0.05' }}></div>
@@ -606,7 +607,12 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* Contact Information - Second */}
+              {/* Contact Form - Second */}
+              <div className="max-w-3xl mx-auto">
+                <ContactForm />
+              </div>
+
+              {/* Contact Information - Third */}
               <div className="grid md:grid-cols-1 gap-12 max-w-2xl mx-auto">
                 <div className="bg-white rounded-xl shadow-lg p-6 sm:p-8 lg:p-10">
                   <div className="flex items-center mb-6">
@@ -762,7 +768,7 @@ export default function Home() {
                 <ul className="space-y-2 sm:space-y-3 text-secondary-400 text-base sm:text-lg">
                   <li><a href="#about" className="hover:text-white transition-colors">{t('footer.links.about')}</a></li>
                   <li><a href="#services" className="hover:text-white transition-colors">{t('footer.links.services')}</a></li>
-                  <li><a href="#calendar" className="hover:text-white transition-colors">{t('footer.links.consultation')}</a></li>
+                  <li><a href="#contact" className="hover:text-white transition-colors">{t('footer.links.consultation')}</a></li>
                   <li><Link href="/privacy-policy" className="hover:text-white transition-colors">{t('footer.links.privacy')}</Link></li>
                   <li><Link href="/terms-of-service" className="hover:text-white transition-colors">{t('footer.links.terms')}</Link></li>
                 </ul>

@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(if [ -f .env.local ])",
+      "Bash(then cat .env.local)",
+      "Bash(else echo \"File does not exist\")",
+      "Bash(fi)",
+      "Bash(git add:*)"
+    ]
+  }
+}
