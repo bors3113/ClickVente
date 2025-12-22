@@ -120,17 +120,21 @@ export default function Home() {
         </nav>
 
         {/* Hero Section */}
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20" role="banner">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 pb-12" role="banner">
           <div className="absolute inset-0 hero-gradient opacity-95"></div>
           <div className="absolute inset-0 bg-black/10"></div>
-          
-          {/* Animated background elements */}
+
+          {/* 3D Floating Shapes */}
           <div className="absolute inset-0" aria-hidden="true">
-            <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary-300/20 rounded-full blur-3xl animate-pulse-slow"></div>
-            <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-400/15 rounded-full blur-3xl animate-pulse-slow delay-1000"></div>
+            <div className="floating-shape shape-cube" style={{ top: '10%', left: '5%', animationDelay: '0s' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '20%', right: '10%', animationDelay: '2s' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ bottom: '20%', left: '15%', animationDelay: '4s' }}></div>
+            <div className="floating-shape shape-torus" style={{ top: '60%', right: '8%', animationDelay: '1s' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '15%', right: '20%', animationDelay: '3s' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '40%', left: '8%', animationDelay: '5s' }}></div>
           </div>
 
-          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-8 sm:py-12">
             <div className="animate-fade-in">
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
                 {t('hero.title')}
@@ -163,8 +167,18 @@ export default function Home() {
         </section>
 
         {/* About Us Section */}
-        <section id="about" className="py-16 sm:py-20 md:py-24 lg:py-32 section-gradient" role="region" aria-labelledby="about-heading">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="about" className="relative py-16 sm:py-20 md:py-24 lg:py-32 section-gradient overflow-hidden" role="region" aria-labelledby="about-heading">
+          {/* 3D Floating Shapes */}
+          <div className="absolute inset-0" aria-hidden="true">
+            <div className="floating-shape shape-torus" style={{ top: '5%', right: '5%', animationDelay: '1s', opacity: '0.08' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '10%', left: '10%', animationDelay: '3s', opacity: '0.08' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '50%', right: '15%', animationDelay: '2s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ top: '30%', left: '5%', animationDelay: '4s', opacity: '0.07' }}></div>
+            <div className="floating-shape shape-cube" style={{ top: '70%', right: '25%', animationDelay: '2.5s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-torus" style={{ bottom: '30%', left: '20%', animationDelay: '3.5s', opacity: '0.05' }}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <header className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
               <h2 id="about-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
                 {t('about.title')}
@@ -213,8 +227,20 @@ export default function Home() {
         </section>
 
         {/* Our Services Section */}
-        <section id="services" className="py-16 sm:py-20 md:py-24 lg:py-32 bg-white" role="region" aria-labelledby="services-heading">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="services" className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden" role="region" aria-labelledby="services-heading">
+          {/* 3D Floating Shapes */}
+          <div className="absolute inset-0" aria-hidden="true">
+            <div className="floating-shape shape-pyramid" style={{ top: '8%', left: '3%', animationDelay: '2s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '30%', right: '5%', animationDelay: '4s', opacity: '0.07' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '15%', left: '8%', animationDelay: '1s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-torus" style={{ bottom: '25%', right: '12%', animationDelay: '3s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '50%', left: '15%', animationDelay: '5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-cube" style={{ top: '60%', right: '20%', animationDelay: '2.5s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ bottom: '40%', left: '25%', animationDelay: '3.5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-torus" style={{ top: '20%', left: '12%', animationDelay: '4.5s', opacity: '0.05' }}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <header className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
               <h2 id="services-heading" className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
                 {t('services.title')}
@@ -379,8 +405,19 @@ export default function Home() {
         </section>
 
         {/* Why Choose Us Section */}
-        <section className="py-16 sm:py-20 md:py-24 lg:py-32 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden">
+          {/* 3D Floating Shapes */}
+          <div className="absolute inset-0" aria-hidden="true">
+            <div className="floating-shape shape-sphere" style={{ top: '10%', left: '5%', animationDelay: '1s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-cube" style={{ top: '40%', right: '8%', animationDelay: '3s', opacity: '0.07' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ bottom: '20%', left: '10%', animationDelay: '2s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-torus" style={{ top: '25%', left: '15%', animationDelay: '4s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-sphere" style={{ bottom: '35%', right: '18%', animationDelay: '2.5s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-cube" style={{ top: '60%', left: '22%', animationDelay: '3.5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ top: '15%', right: '15%', animationDelay: '4.5s', opacity: '0.05' }}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
                 {t('whyChoose.title')} <span className="text-secondary-900">Click</span><span className="text-primary-500">Vente</span>?
@@ -453,8 +490,19 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-16 sm:py-20 md:py-24 lg:py-32 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden">
+          {/* 3D Floating Shapes */}
+          <div className="absolute inset-0" aria-hidden="true">
+            <div className="floating-shape shape-torus" style={{ top: '15%', right: '6%', animationDelay: '2s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '10%', left: '5%', animationDelay: '4s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '50%', left: '8%', animationDelay: '1s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ top: '35%', right: '12%', animationDelay: '3s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '30%', right: '20%', animationDelay: '2.5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-torus" style={{ top: '65%', left: '18%', animationDelay: '3.5s', opacity: '0.04' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '25%', left: '25%', animationDelay: '4.5s', opacity: '0.05' }}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
                 {t('faq.title')}
@@ -517,8 +565,20 @@ export default function Home() {
         </section>
 
         {/* Calendar Booking Section */}
-        <section id="calendar" className="py-16 sm:py-20 md:py-24 lg:py-32 bg-white">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <section id="calendar" className="relative py-16 sm:py-20 md:py-24 lg:py-32 bg-white overflow-hidden">
+          {/* 3D Floating Shapes */}
+          <div className="absolute inset-0" aria-hidden="true">
+            <div className="floating-shape shape-pyramid" style={{ top: '10%', left: '4%', animationDelay: '3s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-sphere" style={{ top: '25%', right: '6%', animationDelay: '1s', opacity: '0.06' }}></div>
+            <div className="floating-shape shape-cube" style={{ bottom: '15%', right: '10%', animationDelay: '4s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-torus" style={{ bottom: '30%', left: '7%', animationDelay: '2s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-cube" style={{ top: '40%', left: '12%', animationDelay: '2.5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-sphere" style={{ bottom: '40%', right: '15%', animationDelay: '3.5s', opacity: '0.05' }}></div>
+            <div className="floating-shape shape-pyramid" style={{ top: '60%', right: '22%', animationDelay: '4.5s', opacity: '0.04' }}></div>
+            <div className="floating-shape shape-torus" style={{ top: '50%', left: '20%', animationDelay: '5s', opacity: '0.05' }}></div>
+          </div>
+
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div className="text-center mb-12 sm:mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-secondary-900 mb-4 sm:mb-6 md:mb-8">
                 {t('calendar.title')}

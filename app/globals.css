@@ -78,4 +78,74 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+}
+
+/* 3D Floating Shapes */
+.floating-shape {
+  position: absolute;
+  opacity: 0.1;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.shape-cube {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #8a432a 0%, #5a2b1a 100%);
+  transform-style: preserve-3d;
+  animation: float 20s ease-in-out infinite;
+  border-radius: 10px;
+  box-shadow: 0 20px 50px rgba(138, 67, 42, 0.5);
+}
+
+.shape-sphere {
+  width: 120px;
+  height: 120px;
+  background: radial-gradient(circle at 30% 30%, #8a432a, #5a2b1a);
+  border-radius: 50%;
+  animation: float 25s ease-in-out infinite;
+  box-shadow: 0 20px 60px rgba(138, 67, 42, 0.6);
+}
+
+.shape-pyramid {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 100px solid #5a2b1a;
+  animation: float 22s ease-in-out infinite;
+  filter: drop-shadow(0 20px 40px rgba(90, 43, 26, 0.5));
+}
+
+.shape-torus {
+  width: 80px;
+  height: 80px;
+  border: 20px solid #8a432a;
+  border-radius: 50%;
+  animation: float 18s ease-in-out infinite, rotate 30s linear infinite;
+  box-shadow: 0 20px 40px rgba(138, 67, 42, 0.5);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0) rotateX(0deg) rotateY(0deg);
+  }
+  25% {
+    transform: translateY(-30px) translateX(20px) rotateX(15deg) rotateY(15deg);
+  }
+  50% {
+    transform: translateY(-50px) translateX(-20px) rotateX(30deg) rotateY(30deg);
+  }
+  75% {
+    transform: translateY(-30px) translateX(20px) rotateX(15deg) rotateY(15deg);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 } 
